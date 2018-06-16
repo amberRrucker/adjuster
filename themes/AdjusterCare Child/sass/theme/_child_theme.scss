@@ -1,0 +1,475 @@
+
+html {
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a {
+  color: $brand-secondary;
+}
+
+p {
+  font-family: $primary-font;
+  color: #565656;
+  line-height: 1.5rem;
+}
+
+.wrapper {
+  padding: 0;
+}
+
+h1 {
+  color: $white;
+  text-align: center;
+  font-family: $primary-font;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: $white;
+  text-align: center;
+  font-family: $primary-font;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 2.75rem;
+}
+
+h4 {
+  color: $brand-primary;
+  text-align: left;
+  font-family: $primary-font;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.primary {
+  color: $brand-primary;
+  text-align: left;
+}
+
+
+//Navigation
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#navbarNavDropdown {
+  background: $brand-primary;
+  padding: 0 20px;
+  
+  @include media-breakpoint-up(lg) {
+    font-size: 12px;
+    padding: 0 .5rem;
+  }
+  
+  @include media-breakpoint-up(md) {
+    font-size: 12px;
+    padding: 0 .5rem;
+    background: transparent;
+  }
+}
+
+.navbar-nav .nav-link {
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  position: relative;
+  text-decoration: none;
+  padding: 0 .35rem;
+  
+  @include media-breakpoint-up(lg) {
+    font-size: 12px;
+    padding: 0 .5rem;
+  }
+  
+  &::after {
+    content: none;
+    margin-left: 12px;
+    
+    @include media-breakpoint-up(lg) {
+      content: "|";
+    }
+  }
+  
+  &:hover {
+    color: $white;
+    &::after {
+      color: $white;
+    }
+  }
+}
+
+.navbar-nav .nav-link::before {
+  background: $white;
+  bottom: 0;
+  content: '';
+  display: inline-block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: .2s ease-in;
+  width: 0;
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 90%;
+}
+
+.navbar-brand {
+  max-width: 225px;
+}
+
+.navbar-toggler-icon {
+  font-family: FontAwesome;
+  content: "\f0c9";
+}
+
+
+
+//Header
+
+.header-image {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-image: url('../imgs/acHero.jpg');
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+
+.header-imageInternal {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-image: url('../imgs/acHero.jpg');
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.header-container {
+  @include make-container();
+}
+
+.header-row {
+  @include make-row();
+}
+
+.header-content {
+  @include make-col-ready();
+	@include make-col(8);
+	margin: 14vw auto 0;
+}
+
+.header-contentInternal {
+  margin: 9vw auto 0;
+}
+
+.header-formWrapper {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
+//Value Props
+
+.valueProps-container {
+  @include make-container();
+  margin-top: -45vw;
+  
+  @include media-breakpoint-up(md) {  
+    margin-top: -9vw;
+  }
+}
+
+.valueProps-row {
+  @include make-row();
+}
+
+.valueProps-wrapper {
+  @include make-col-ready();
+	@include make-col(10);
+	@include make-col-offset(1);
+  background-color: $white;
+  box-shadow: 0 12px 42px 12px rgba(0, 0, 0, 0.08);
+}
+
+.valueProps-itemRow {
+  @include make-row();
+}
+
+.valueProps-item {
+  @include make-col-ready();
+  @include make-col(11);
+  padding: 2em;
+  border: 1px solid $gray-light;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  @include media-breakpoint-up(sm) {  
+    @include make-col(12);
+  }
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(4);
+  }
+}
+
+.valueProps-itemIcon {
+  font-family: 'FontAwesome', sans-serif;
+  font-style: normal;
+  color: $brand-primary;
+  align-self: center;
+  margin: 0 auto;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.valueProps-itemText {
+  text-align: center;
+  color: $gray;
+}
+
+
+//Form Area
+
+.formGraphic-container {
+  @include make-container();
+  margin: 8rem 0 6rem;
+}
+
+.formGraphic-row {
+  @include make-row();
+}
+
+.formGraphic-textArea {
+  @include make-col-ready();
+  @include make-col(11);
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(4);
+    @include make-col-offset(1);
+  }
+}
+
+.formGraphic-title {
+  
+}
+
+.formGraphic-text {
+  font-size: 1.15em;
+  line-height: 1.6em;
+  color: $gray;
+}
+
+.formGraphic-imageWrapper {
+  @include make-col-ready();
+  display: none;
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(5);
+    @include make-col-offset(2);
+    display: block;
+  }
+}
+
+.formGraphic-imageArea {
+  height: 100%;
+  min-height: 400px;
+}
+
+
+//Sign Up
+
+.signup-wrapper {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-image: url('../imgs/acHero.jpg');
+  background-size: cover;
+  padding: 4em 0;
+}
+
+.signup-container {
+  @include make-container();
+}
+
+.signup-row {
+  @include make-row();
+}
+
+.signup-titleArea {
+  @include make-col-ready();
+  @include make-col(11);
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(6);
+  }
+}
+
+.signup-title {
+  color: $white;
+}
+
+.signup-text {
+  font-size: 1.15em;
+  line-height: 1.6em;
+  color: $white;
+}
+
+.signup-ctaArea {
+  @include make-col-ready();
+  @include make-col(11);
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(4);
+    @include make-col-offset(2);
+  }
+}
+
+
+.widget-area {
+  background: #02809047;
+  padding: 30px;
+}
+
+.widget-title {
+  display: none;
+}
+
+.assistive-text {
+  display: none;
+}
+
+.widget_search {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $gray-light;
+  margin-bottom: 20px;
+}
+
+
+//Buttons
+
+
+.button {
+  border: 0;
+  padding: 10px 70px;
+  font-size: .9em;
+  font-weight: 400;
+  color: $white;
+}
+
+
+.signup-cta {
+  @extend .button;
+  background-color: $brand-primary;
+  &:hover {
+    background-color: darken($brand-primary, 10%);
+  }
+}
+
+.secondary-cta {
+  @extend .button;
+  background: transparent;
+  border: 1px solid $white;
+  &:hover {
+    background: $white;
+    color: $brand-primary;
+  }
+}
+
+.btn-outline-primary, .wpcf7 input[type=submit] {
+  height: 50px;
+  border-radius: 3px;
+  background-color: $brand-secondary;
+}
+
+
+//Footer
+
+.footer-wrapper {
+  background-color: #056D75;
+  padding: 2vw 0 3vw 0;
+}
+
+.footer-menu {
+  @include make-col-ready();
+  @include make-col(4);
+  
+  @include media-breakpoint-up(md) {  
+    @include make-col(4);
+  }
+  
+  & a {
+    color: $white;
+    line-height: 1rem;
+    font-size: .75rem;
+    font-weight: 600;
+  }
+}
+
+.footer-menuList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.footer-contactTitle {
+  color: $white;
+  margin: 0 0 5px 0;
+}
+
+.footer-contactInfo {
+  color: $white;
+  margin-bottom: 5px;
+  line-height: 1rem;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+
+
+//Basement
+
+.basement-wrapper {
+  background-color: darken($brand-primary, 20%);
+}
+
+.basement-copyright p {
+  color: $white;
+  margin-top: 10px;
+}

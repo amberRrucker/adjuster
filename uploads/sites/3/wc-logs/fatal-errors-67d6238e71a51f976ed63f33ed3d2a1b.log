@@ -1,0 +1,12 @@
+2018-06-14T00:35:50+00:00 CRITICAL Uncaught Error: Call to undefined function the_year() in /srv/www/Adjusters/htdocs/wp-content/themes/AdjusterCare Child/footer.php:65
+Stack trace:
+#0 /srv/www/Adjusters/htdocs/wp-includes/template.php(688): require_once()
+#1 /srv/www/Adjusters/htdocs/wp-includes/template.php(647): load_template('/srv/www/Adjust...', true)
+#2 /srv/www/Adjusters/htdocs/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /srv/www/Adjusters/htdocs/wp-content/themes/AdjusterCare Child/front-page.php(88): get_footer()
+#4 /srv/www/Adjusters/htdocs/wp-includes/template-loader.php(74): include('/srv/www/Adjust...')
+#5 /srv/www/Adjusters/htdocs/wp-blog-header.php(19): require_once('/srv/www/Adjust...')
+#6 /srv/www/Adjusters/htdocs/index.php(17): require('/srv/www/Adjust...')
+#7 {main}
+  thrown
+

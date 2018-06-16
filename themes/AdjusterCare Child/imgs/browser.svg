@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="663px" height="499px" viewBox="0 0 663 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>inner browser</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="659" height="495"></rect>
+        <rect id="path-3" x="0" y="0" width="659" height="495"></rect>
+        <rect id="path-5" x="0" y="0" width="659" height="495"></rect>
+        <rect id="path-7" x="0" y="0" width="659" height="495"></rect>
+        <rect id="path-9" x="0" y="0" width="659" height="495"></rect>
+        <rect id="path-11" x="114" y="100" width="433" height="354" rx="2"></rect>
+        <filter x="-1.6%" y="-1.4%" width="103.2%" height="104.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-14" x="0.0213222763" y="251.485696" width="121.344022" height="37.2485436" rx="5"></rect>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AdjusterCare" transform="translate(-629.000000, -1468.000000)">
+            <g id="inner-browser" transform="translate(631.000000, 1470.000000)">
+                <g id="window">
+                    <g id="base-link" fill="#82B4B8">
+                        <rect id="base" x="0" y="0" width="659" height="495"></rect>
+                    </g>
+                    <g id="background-toolbar-Clipped">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="base"></g>
+                        <path d="M645.870498,3.78826531 L12.1195402,3.78826531 C7.82720307,3.78826531 4.54482759,7.07142857 4.54482759,11.3647959 L4.54482759,54.2984694 L653.445211,54.2984694 L653.445211,11.3647959 C653.445211,7.07142857 650.162835,3.78826531 645.870498,3.78826531 L645.870498,3.78826531 Z" id="background-toolbar" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="XMLID_1266_-Clipped">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="base"></g>
+                    </g>
+                    <g id="light-Clipped">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="base"></g>
+                        <polygon id="light" fill="#FFFFFF" opacity="0.44" mask="url(#mask-6)" points="299.958621 493.737245 -0.504980843 493.737245 -0.504980843 54.2984694 461.55249 54.2984694"></polygon>
+                    </g>
+                    <g id="separator-Clipped">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="base"></g>
+                        <path d="M5.04980843,53.0357143 L653.950192,53.0357143" id="separator" stroke="#056D75" stroke-width="2" fill="#C4E1F7" mask="url(#mask-8)"></path>
+                    </g>
+                    <g id="control-buttons-Clipped">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="base"></g>
+                        <g id="control-buttons" mask="url(#mask-10)" fill="#FFFFFF" stroke="#056D75" stroke-width="2">
+                            <g transform="translate(27.773946, 18.408660)">
+                                <ellipse id="XMLID_430_" cx="7.82720307" cy="8.10919722" rx="7.57471264" ry="7.57653061"></ellipse>
+                                <ellipse id="XMLID_429_" cx="35.6011494" cy="8.10919722" rx="7.57471264" ry="7.57653061"></ellipse>
+                                <ellipse id="XMLID_428_" cx="63.3750958" cy="8.10919722" rx="7.57471264" ry="7.57653061"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="base-link" stroke="#056D75" stroke-width="4">
+                        <rect id="base" x="0" y="0" width="659" height="495"></rect>
+                    </g>
+                </g>
+                <mask id="mask-12" fill="white">
+                    <use xlink:href="#path-11"></use>
+                </mask>
+                <g id="Rectangle-76">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-11"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <rect stroke="#EDF1F5" stroke-width="1" x="114.5" y="100.5" width="432" height="353" rx="2"></rect>
+                </g>
+                <g id="Group-10" mask="url(#mask-12)">
+                    <g transform="translate(163.000000, 136.000000)">
+                        <rect id="Rectangle-163" stroke="none" fill="#EDF1F5" fill-rule="evenodd" x="0.0213222763" y="0.0580270341" width="345.363754" height="37.2485436"></rect>
+                        <rect id="Rectangle-163" stroke="none" fill="#EDF1F5" fill-rule="evenodd" x="0.0213222763" y="93.1793861" width="345.363754" height="37.2485436"></rect>
+                        <rect id="Rectangle-163-Copy-2" stroke="none" fill="#EDF1F5" fill-rule="evenodd" x="0.0213222763" y="139.740066" width="345.363754" height="37.2485436"></rect>
+                        <rect id="Rectangle-163-Copy-3" stroke="none" fill="#EDF1F5" fill-rule="evenodd" x="0.0213222763" y="186.300745" width="345.363754" height="37.2485436"></rect>
+                        <g id="Rectangle-163-Copy" stroke="none" fill="none">
+                            <use fill="#056D75" fill-rule="evenodd" xlink:href="#path-14"></use>
+                            <rect stroke="#056D75" stroke-width="1" x="0.521322276" y="251.985696" width="120.344022" height="36.2485436" rx="5"></rect>
+                        </g>
+                        <rect id="Rectangle-163-Copy-4" stroke="#EDF1F5" stroke-width="1" fill="none" x="140.533655" y="251.985696" width="204.351421" height="36.2485436" rx="5"></rect>
+                        <rect id="Rectangle-163" stroke="none" fill="#EDF1F5" fill-rule="evenodd" x="0.0213222763" y="46.6187066" width="345.363754" height="37.2485436"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
